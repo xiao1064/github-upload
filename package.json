@@ -1,0 +1,38 @@
+{
+  "name": "icov2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mathjs": "^3.16.5",
+    "truffle": "^4.0.1",
+    "truffle-flattener": "^1.2.0",
+    "zeppelin-solidity": "^1.5.0"
+  },
+  "devDependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "prettier": "^1.8.2",
+    "solidity-coverage": "^0.4.2"
+  },
+  "scripts": {
+    "build": "truffle compile",
+    "deploy": "truffle migrate",
+    "test": "bash scripts/test.sh",
+    "coverage": "bash scripts/coverage.sh",
+    "flatten": "bash scripts/flatten.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Marcio-internal-apps/send-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Marcio-internal-apps/send-contracts/issues"
+  },
+  "homepage": "https://gitlab.com/Marcio-internal-apps/send-contracts#README"
+}
